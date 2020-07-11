@@ -1,0 +1,32 @@
+{
+  "name": "ys-data-transfer-tools",
+  "version": "1.0.0",
+  "description": "简单JS之间的加密压缩传输数据",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm install",
+    "test": "mocha test.js",
+    "testWithReport": "mocha test.js --reporter mochawesome&&open ./mochawesome-report/mochawesome.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teaxus/YSDataTransferTools.git"
+  },
+  "keywords": [
+    "js",
+    "encrypt"
+  ],
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "pako": "^1.0.11"
+  },
+  "author": "teaxus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teaxus/YSDataTransferTools/issues"
+  },
+  "homepage": "https://github.com/teaxus/YSDataTransferTools#readme",
+  "devDependencies": {
+    "mochawesome": "^6.1.1"
+  }
+}
