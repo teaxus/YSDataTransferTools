@@ -1,7 +1,7 @@
 var CryptoJs = require('crypto-js');
 var pako = require('pako');
 
-const YSDataTransferTools = {
+const YSDataTransferTools =  {
   const: {
     defaultIv: "ogiGRWos02oH22301#" //偏移量
   },
@@ -95,4 +95,3 @@ const YSDataTransferTools = {
     return "23d$%Q#kjwgsl@" + passLow4;
   },
 }
-module.exports = YSDataTransferTools;
