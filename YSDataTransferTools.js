@@ -95,3 +95,4 @@ const YSDataTransferTools =  {
     return "23d$%Q#kjwgsl@" + passLow4;
   },
 }
+module.exports = YSDataTransferTools

@@ -1,6 +1,6 @@
 {
   "name": "ys-data-transfer-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "简单JS之间的加密压缩传输数据",
   "main": "index.js",
   "scripts": {
