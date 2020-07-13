@@ -1,6 +1,6 @@
 {
   "name": "ys-data-transfer-tools",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "简单JS之间的加密压缩传输数据",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,6 @@
   "homepage": "https://github.com/teaxus/YSDataTransferTools#readme",
   "devDependencies": {
     "mochawesome": "^6.1.1"
-  }
+  },
+  "typings": "types/index.d.ts"
 }
